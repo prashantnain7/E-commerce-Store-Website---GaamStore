@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GaamStore | E-commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+   <div class="header">
+       <div class="container">
+          <div class="navbar">
+              <div class="logo">
+                  <a href="index.html"><img src="/Website Images/Logo.png" width="125px"></a>
+              </div>
+              <nav>
+               <ul id="MenuItems">
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="products.html">Products</a></li>
+                   <li><a href="/about.html">About</a></li>
+                   <li><a href="/contact.html">Contact</a></li>
+                   <li><a href="account.html">Account</a></li>
+               </ul>
+              </nav>
+              <a href="cart.html"><img src="/Website Images/cart icon.png" width="30px" height="30px"></a>
+              <img src="/Website Images/menu icon.png" onclick="menutoggle()" class="menu-icon">
+          </div>
+           <div class="row">
+                <div class="col-2">
+
+                    <h1>Transform Your Look<br>Inspire Confidence</h1>
+                    <p>Fashion isn't about perfection. It's about consistency. Steady dedication<br> builds style. Greatness will follow.</p>
+                    <a href="/account.html" class="btn">Login &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="/Website Images/Fashion Main Img.png">
+                </div>
+               
+           </div>
+           
+       </div>
+       </div>
+<!------------------ featured categories --------------->
+     <div class="categories">
+         <div class="small-container">
+           <div class="row">
+               <div class="col-3">
+                   <img src="/Website Images/Featured Img 1.jpg">
+               </div> 
+               <div class="col-3">
+                  <img src="/Website Images/Featured Img 2.jpg">
+               </div> 
+               <div class="col-3">
+                   <img src="/Website Images/Featured Img 3.jpg">
+               </div> 
+           </div>
+       </div>
+     </div>
+       
+<!------------- Featured Products -------------->
+  <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+           <div class="row">
+               <div class="col-4">
+                   
+                   <a href="product-details.html"><img src="/Website Images/Nriya Fashion Textured Shirts -.jpg"></a>
+                   <h4><a href="product-details.html">Nriya Fashion Textured Shirts</a></h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>499₹</p>
+               </div> 
+               <div class="col-4">
+                   <img src="/Website Images/Featured Product Img2.jpg">
+                   <h4>Nike Stylish Shoes</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>1299₹</p>
+               </div> 
+               <div class="col-4">
+                   <img src="/Website Images/Featured Product Img3 (1).jpg">
+                   <h4>Stylish Jean</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <p>800₹</p>
+               </div> 
+                <div class="col-4">
+                   <img src="/Website Images/Featured Products Img4 (1).jpg">
+                   <h4>Black Gym Printed T-Shirt</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>399₹</p>
+               </div> 
+           </div>
+        <h2 class="title">Latest Products</h2>
+             <div class="row">
+               <div class="col-4">
+                   <img src="/Website Images/product-5.jpg">
+                   <h4>Puma Gray Sports Shoes</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>1200₹</p>
+               </div> 
+               <div class="col-4">
+                   <img src="/Website Images/IMG6.jpg">
+                   <h4>Shirt-Shoes Pair</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <p>600₹</p>
+               </div> 
+               <div class="col-4">
+                   <img src="/Website Images/product-7.jpg">
+                   <h4>HRX Set of 3 Socks</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <p>199₹</p> 
+               </div> 
+                <div class="col-4">
+                   <img src="/Website Images/IMG7.jpg">
+                   <h4>Puma White-Brown Shoes</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>1500₹</p>
+               </div> 
+           </div>
+           <div class="row">
+               <div class="col-4">
+                   <img src="/Website Images/product-9.jpg">
+                   <h4>Black Sportx Watch</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>2500₹</p> 
+               </div> 
+               <div class="col-4">
+                   <img src="/Website Images/IMG8.jpg">
+                   <h4>Black Zara Jeans</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <p>2500₹</p>
+               </div> 
+               <div class="col-4">
+                   <img src="/Website Images/product-11.jpg">
+                   <h4>Gray Nike Shoes</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <p>2199₹</p>
+               </div> 
+                <div class="col-4">
+                   <img src="Website Images/IMG3.jpg">
+                   <h4>Addidas White Shoes</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>1200₹</p>
+               </div> 
+           </div>
+       </div>
+       
+<!----------offer---------------> 
+   <div class="offer">
+       <div class="small-container">
+           <div class="row">
+           <div class="col-2">
+               <img src="/Website Images/Apple Watch Ultra 2 Img.png" class="offer-img">
+           </div>
+           <div class="col-2">
+               <p>Exclusively avaliable on GaamStore</p>
+               <h1>Apple Watch Ultra 2</h1>
+               <small>The Apple Watch Ultra 2 is a rugged, high-performance smartwatch designed for extreme outdoor activities, featuring enhanced brightness, advanced health metrics, a customizable Action button, and extended battery life.</small>
+               <br>
+               <a href="" class="btn">Buy Now &#8594;</a>
+           </div>
+       </div>
+       </div>
+       
+   </div>
+   
+<!----------testimonial--------------->   
+   <div class="testimonial">
+       <div class="small-container">
+       <div class="row">
+           <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                      <p>Really happy with my purchase! The product arrived quickly, was well-packaged, and looked exactly like the photos. Great value for the price</p>
+                      <div class="rating">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star-o"></i>
+                       </div>
+                       <img src="/Website Images/IMG1 TESTIMONIAL.avif">
+                       <h3>Rohit</h3>
+           </div>
+            <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                      <p>Good quality and fit as expected. The item was just as described, though I wish the color was a bit brighter. Shipping was fast too</p>
+                      <div class="rating">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star-o"></i>
+                       </div>
+                       <img src="/Website Images/IMG3 TESTIMONIAL.avif">
+                       <h3>Sangam</h3>
+           </div>
+            <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                      <p>Decent product but slightly overpriced for the quality. The features work fine, but there were some minor scratches. Arrived on time and safely packed</p>
+                      <div class="rating">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star-o"></i>
+                       </div>
+                       <img src="/Website Images/user-3.png">
+                       <h3>Christy</h3>
+           </div>
+       </div>
+       </div>
+   </div>
+<!----------Brands--------------->     
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="/Website Images/Microsoft Logo.png">
+                </div>
+                <div class="col-5">
+                    <img src="/Website Images/Philips logo.png">
+                </div>
+                <div class="col-5">
+                    <img src="/Website Images/Samsung Logo.png">
+                </div>
+                <div class="col-5">
+                    <img src="/Website Images/Vivo Logo.png">
+                </div>
+                <div class="col-5">
+                    <img src="/Website Images/Coca Cola Logo.png">
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------Footer---------------> 
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col1">
+               <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="/Website Images/Google Store logo.png">
+                    <img src="/Website Images/Apple Store Logo.png">
+                </div>
+            </div>
+            <div class="footer-col2">
+               <img src="/Website Images/Logo.png">
+                <p>Our Purpose Is to Redefine Fashion by Creating Sustainable, Stylish Choices for Everyone.</p>
+            </div>
+            <div class="footer-col3">
+               <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col4">
+               <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter<li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright"><a href="/index.html">Copyright 2024 - Prashant Nain</a></p>
+    </div>
+</div>
+
+<!-------------Java Script for toggle menu-------------->
+<script>
+    
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight = "0px";
+    
+    function menutoggle()
+    {
+        if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }else
+            {
+                MenuItems.style.maxHeight = "0px"
+            } 
+    }
+</script>
+</body>
+</html>
